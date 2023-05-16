@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="WYSIWYR"/>
+  <meta property="og:description" content="Improving Text-Image Alignment Evaluation"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="WYSIWYR">
+  <meta name="twitter:description" content="Improving Text-Image Alignment Evaluation">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>WYSIWYR</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">-->
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">What You See is What You Read? Improving Text-Image Alignment Evaluation</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+            <span class="author-block">
+              <a href="https://research.google/people/108384/" target="_blank">Michal Yarom*</a>,&nbsp;</span>
+              <span class="author-block">
+                <a href="https://yonatanbitton.github.io/" target="_blank">Yonatan Bitton*</a>,&nbsp;</span>
+                <span class="author-block">
+                  <a href="https://research.google/people/106773/" target="_blank">Soravit "Beer" Changpinyo</a>,&nbsp;</span>
+                  <span class="author-block">
+                    <a href="http://roeeaharoni.com/" target="_blank">Roee Aharoni</a>,&nbsp;</span><br>
+                    <span class="author-block">
+                      <a href="https://research.google/people/JonathanHerzig/" target="_blank">Jonathan Herzig</a>,&nbsp;</span>
+                      <span class="author-block">
+                        <a href="https://research.google/people/105975/" target="_blank">Oran Lang</a>,&nbsp;</span>
+                        <span class="author-block">
+                          <a href="https://scholar.google.com/citations?hl=en&user=9IkHbWUAAAAJ" target="_blank">Eran Ofek</a>,&nbsp;</span>
+                            <span class="author-block">
+                              <a href="https://research.google/people/105847/" target="_blank">Idan Szpektor</a>,&nbsp;</span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Google&nbsp;Research, </span>
+                    <span class="author-block">The Hebrew University of Jerusalem</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution</small></span>
+                  </div>
+
+
+<!--                  &lt;!&ndash; Github link &ndash;&gt;-->
+<!--                  <span class="link-block">-->
+<!--                    <a href="https://github.com/YOUR REPO HERE" target="_blank"-->
+<!--                    class="external-link button is-normal is-rounded is-dark">-->
+<!--                    <span class="icon">-->
+<!--                      <i class="fab fa-github"></i>-->
+<!--                    </span>-->
+<!--                    <span>Code</span>-->
+<!--                  </a>-->
+<!--                </span>-->
+
+              <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="TODO" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                  <a href="https://github.com/yonatanbitton/wysiwyr" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+                
+
+<!--                &lt;!&ndash; HuggingFace Link &ndash;&gt;-->
+<!--                <span class="link-block">-->
+<!--                  <a href="https://huggingface.co/datasets/nlphuji/whoops" target="_blank"-->
+<!--                  class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                    <p style="font-size:20px">&#x1F917;</p>-->
+<!--                  </span>-->
+<!--                  <span>Dataset</span>-->
+<!--                </a>-->
+<!--              </span>-->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="publication-flipped">
+<!--        <h2 class="title is-3">q2d is an automatic data generation pipeline that generates information-seeking dialogs from questions. q2d effectively replaces human-annotated data for training query-generation models and creates high-quality training and evaluation data across multiple domains.</h2>-->
+        <div class="content has-text-justified">
+            <p style="text-align:center;">
+               <img src="static/images/fig1.png"  style="width: 100%; height: 100%"/>
+               <br>
+            </p>
+            <h3 class="subtitle is-size-5-tablet has-text-left pb-5">
+               <p>
+                    Focusing on image-text alignment, we introduce SeeTRUE, a comprehensive benchmark, and two effective methods: a zero-shot VQA-based approach and a synthetically-trained, fine-tuned model, both enhancing alignment tasks and text-to-image reordering.
+               </p>
+            </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+
+         <div class="item">
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Abstract
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left has-background-info-light pr-4 pl-4 pt-3 pb-3">
+         <p>
+         Automatically determining whether a text and a corresponding image are semantically aligned is a significant challenge for vision-language models, with applications in generative text-to-image and image-to-text tasks. In this work, we study methods for automatic text-image alignment evaluation. We first introduce SeeTRUE: a comprehensive evaluation set, spanning multiple datasets from both text-to-image and image-to-text generation tasks, with human judgements for whether a given text-image pair is semantically aligned. We then describe two automatic methods to determine alignment: the first involving a pipeline based on question generation and visual question answering models, and the second employing an end-to-end classification approach by finetuning multimodal pretrained models. Both methods surpass prior approaches in various text-image alignment tasks, with significant improvements in challenging cases that involve complex composition or unnatural images. Finally, we demonstrate how our approaches can localize specific misalignments between an image and a given text, and how they can be used to automatically re-rank candidates in text-to-image generation.
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Introducing SeeTRUE
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+         <p>
+           A comprehensive benchmark constructed using text-to-image (t2i) and image-to-text (i2t) models, LLMs, and NLI, including a mix of natural and synthetic images, captions, and prompts.
+         </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/fig2.png"  style="width: 75%; height: 75%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           The VQ^2 Method
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+         <p>
+            A novel approach that utilizes question generation and visual question answering to create questions related to the text, ensuring the correct answer is obtained when asking these questions with the provided image.
+         </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/fig3_vqa_method.png"  style="width: 100%; height: 100%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Main Experiments
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+         <p>
+            Our methods surpass prior approaches in various text-image alignment tasks, with significant improvements in challenging cases involving complex composition or considering generated images.
+         </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/fig4_main_experiments.png"  style="width: 100%; height: 100%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Winoground Experiments
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+           <p>
+                We achieve state-of-the-art results with our proposed methods, demonstrating their effectiveness in handling difficult cases.
+           </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/fig5_winoground.png"  style="width: 70%; height: 70%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+        <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Contradiction Generation
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+           <p>
+               Our methods effectively handle contradicting captions and question/answer pairs with lower VQ^2 alignment scores, revealing the contradiction reason.
+           </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/fig6_contradiction_generation.png"  style="width: 100%; height: 100%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+        <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Comparing Generative Models
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+           <p>
+               Our VQ^2 and PaLI scores are highly correlated with human ranking in evaluating text-to-image models. It also offers a way to evaluate dataset difficulty, revealing DrawBench as a harder dataset compared to COCO-t2i.
+           </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/fig7_comparing_models.png"  style="width: 100%; height: 100%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+        <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Reranking Using Alignment Assessment
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+           <p>
+               VQ^2 and PaLI consistently achieves higher quality scores compared to CLIP when reranking image candidates in the DrawBench and COCO-t2i datasets, showcasing its potential in enhancing text-to-image systems.
+           </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/fig8_reranking.png"  style="width: 60%; height: 60%"/>
+         </p>
+         </h3>
+      </div>
+
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+<!--<script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.16.2/gradio.js"></script>-->
+<!-- Youtube video -->
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      &lt;!&ndash; Paper video. &ndash;&gt;-->
+<!--      <div class="columns is-centered has-text-centered">-->
+<!--          <div class="publication-video">-->
+<!--          <h3 class="subtitle is-size-4-tablet has-text-left">-->
+<!--               <p>-->
+<!--                   q2d's auto-generated dialogs enable query generation models to adapt and improve for specific dialog styles, creating labeled datasets for training and evaluation.-->
+<!--                   <br>T5 model predictions above/below the line show the impact of fine-tuning on MuSiQue dialogs.-->
+<!--               </p>-->
+<!--               <p style="text-align:center;">-->
+<!--                   <br><br>-->
+<!--                   <img src="static/images/q2d_5.png"  style="width: 60%; height: 60%"/>-->
+<!--               </p>-->
+<!--         </h3>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--      </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!-- End youtube video-->
+
+<!-- Youtube video -->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h3 class="subtitle is-size-4-tablet has-background-info-light has-text-left pr-4 pl-4 pt-3 pb-3">-->
+<!--      We collect <i>normal</i> (synthetic, not weird) and <i>natural</i> (non-synthetic, not weird) images to investigate the main challenge in WHOOPS!. BLIP2 model performs well on <i>non-weird</i> cases but struggles on weird ones, indicating that weirdness is the primary challenge, not synthesis.-->
+<!--      </h3>-->
+<!--      <div class="columns is-centered has-text-centered">-->
+<!--          <div class="publication-video">-->
+<!--            <iframe src="https://nlphuji-wmtis-explorer-identify.hf.space" frameborder="0" width="850" height="450"></iframe>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+<!-- Paper poster -->
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h2 class="title">Paper</h2>-->
+<!--      <iframe  src="static/pdfs/WHOOPS_paper.pdf" width="100%" height="550">-->
+<!--          </iframe>-->
+<!--        -->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--End paper poster -->
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>Coming Soon</code></pre>
+    </div>-->
+</section>-->
+<!--End BibTex citation -->
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p style="color:gray;font-size:9.9px;">
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>, is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+  </body>
+  </html>
